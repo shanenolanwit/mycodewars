@@ -6,7 +6,6 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-
 public class DubstepExampleTest {
 
 	@Before
@@ -19,14 +18,9 @@ public class DubstepExampleTest {
 
 	@Test
 	public void Test1() {
-		new Dubstep();
 		assertEquals("ABC", Dubstep.SongDecoder("WUBWUBABCWUB"));
-	}
-	@Test
-	public void Test2()
-	{
-		new Dubstep();
 		assertEquals("R L", Dubstep.SongDecoder("RWUBWUBWUBLWUB"));
 	}
+	
 
 }

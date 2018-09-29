@@ -19,7 +19,13 @@ public class DRootExampleTest {
 	@Test
 	public void test() {
 		assertEquals( "Nope!" , 7, DRoot.digital_root(16));
-	    assertEquals( "Nope!" , 6, DRoot.digital_root(456));
+		assertEquals( "Nope!" , 6, DRoot.digital_root(456));
+		assertEquals( "Nope!" , 7, DRoot.digital_root(16));
+		assertEquals( "Nope!" , 6, DRoot.digital_root(195));
+		assertEquals( "Nope!" , 2, DRoot.digital_root(992));
+		assertEquals( "Nope!" , 9, DRoot.digital_root(99999999));
+		assertEquals( "Nope!" , 9, DRoot.digital_root(167346));
+		assertEquals( "Nope! Should work for 0" , 0, DRoot.digital_root(0));
 	}
 
 }

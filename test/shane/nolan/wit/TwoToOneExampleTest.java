@@ -21,6 +21,9 @@ public class TwoToOneExampleTest {
 		assertEquals("aehrsty", TwoToOne.longest("aretheyhere", "yestheyarehere"));
 		assertEquals("abcdefghilnoprstu", TwoToOne.longest("loopingisfunbutdangerous", "lessdangerousthancoding"));
 		assertEquals("acefghilmnoprstuy", TwoToOne.longest("inmanylanguages", "theresapairoffunctions"));
+		assertEquals("adefghklmnorstu", TwoToOne.longest("lordsofthefallen", "gamekult"));
+		assertEquals("acdeorsw", TwoToOne.longest("codewars", "codewars"));
+		assertEquals("acdefghilmnorstuw", TwoToOne.longest("agenerationmustconfrontthelooming", "codewarrs"));
 	}
 
 }
